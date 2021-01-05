@@ -1,0 +1,34 @@
+.nav a, .nav a:hover {
+    text-decoration: none;
+    color: #cbc8c8;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nav a:hover {
+    cursor: pointer;
+}
+
+nav.nav.nav-tabs {
+    width: 80px;
+    height: 400px;
+}
+
+textarea {
+    width: 600px;
+    height: 400px;
+    padding-left: 15px;
+    padding-top: 10px;
+    background-color: #242424;
+    color: white;
+}
+
+@media only screen and (max-width: 1300px) {
+    nav.nav.nav-tabs {
+        width: auto;
+        height: auto;
+    }
+    textarea {
+        width: 90%;
+    }
+  }
